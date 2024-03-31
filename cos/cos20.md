@@ -1,5 +1,5 @@
 # ChemOffice 20\~23 for Windows / ChemDraw 20\~23 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 24年3月17日</p>**
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 24年3月30日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
@@ -96,34 +96,48 @@
   * 所有密码为 `csme`
 
 > [!note]
-> 因为某些不可抗力（详见[Issue #26](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/26#issuecomment-1830689605)），在 Google Drive 上，自 20.0 版起的安装包只能以 RAR 压缩包形式发布。解压密码为 `csme`，解压出相应的单个 EXE 安装文件后运行即可。虽然二次压缩看上去很蠢，但也是不得已而为之。或者可以前往百度网盘以直接下载单个 EXE 安装文件。
+> 因为某些不可抗力（详见 [Issue #26](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/26#issuecomment-1830689605)），在 Google Drive 上，自 20.0 版起的安装包只能以 RAR 压缩包形式发布。解压密码为 `csme`，解压出相应的单个 EXE 安装文件后运行即可。虽然二次压缩看上去很蠢，但也是不得已而为之。或者可以前往百度网盘以直接下载单个 EXE 安装文件。
 
 > [!note]
-> 因为 23.0 安装包实在太大，为减轻个人网盘空间的压力，该版本的懒人安装包剔除了非必要的 非管理员权限（仅为当前用户安装）的安装包，以及 ChemDrawCollections（旧称 ChemDraw+、ChemOffice+）的安装包（反正云应用没法破解也用不了）。如果实在特别需要，可以移步别处下载官方版，然后单独下载使用破解补丁（见下条说明）。
+> 因为 23.0 安装包实在太大，为减轻个人网盘空间的压力，该版本的懒人安装包剔除了非必要的 非管理员权限（仅为当前用户安装）的安装包，以及 ChemDrawCollections（旧称 ChemDraw+、ChemOffice+）的安装包（反正云应用没法破解也用不了）。如果实在特别需要，可以移步别处下载官方版，然后单独下载使用破解补丁（见下方说明）。
 
 > [!tip]
-> 虽然在测试中从未碰到过，但如果 23.0 版弹窗询问选择何种注册模式，请选择第二种——Activation Code（详见下方 Mac 版中的相关说明）。
+> 虽然在测试中从未碰到过，但若 23.0 版弹窗询问选择何种注册模式，请选择第二种——Activation Code（详见下方 Mac 版中相关说明）。
 
-* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)
+* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用 [破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)
 
   * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 23.0/22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
   * 如果已经下载运行了上面的单文件版安装破解程序，因其本身就会自动运行该破解补丁程序，**故无需再另行下载此补丁**
-* 破解过程中，按窗口提示操作，或者直接等一会（以默认模式进行）即可。最后可以选填注册信息，不影响破解，只是会将这些信息显示在软件的“关于”对话框中（见第一张图）。（和之前的破解补丁不同，最后不会弹出新的注册信息对话框，因为已经整合到主程序中了。）
+* 破解过程中，如下左图所示，按窗口提示操作（一般而言，第一个问题按 <kbd>Y</kbd> 键，接下来按 <kbd>P</kbd> 键）；<br>
+  或者直接等一会即可（等待 10 秒后自动以默认模式进行）。<br>
+  最后可以选填注册信息，不影响破解，只是可以在软件的“关于”对话框中显示这些用户自定义的信息（见下右图）。
 
-<p align="center"><img width="60%" height="60%" src="/cos/202.png"></p>
+|![](/cos/202.png)|![](/cos/230.png)|
+|---|---|
 
 #### 疑难解答
-#### ChemOffice 22.2 破解
-<details>
 
-**如果你在其他地方下载并安装了 22.2 版ChemOffice**，则原先的补丁失效，具体原因见[Issue #20](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/20#issuecomment-1532687318)。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)即可。
-</details>
+---
+#### 避免“多用户使用”警告弹窗
 
-#### Windows 下 ChemScript Python 接口用户
-<details>
+若多个 Windows ChemDraw Suite 用户在同一局域网内，可能出现弹窗提示（详见 [Issue #31](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/31) 和 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)），但其实并不影响使用。
 
-**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)即可。
-</details>
+如果实在有多用户运行的需要，而且嫌老是弹窗麻烦，**可以尝试使用 [此 beta 版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.18rc/COS_Win_Patch.exe)，使用方法与上述相同，可以在实现完美破解的同时消除警告弹窗**。
+
+> [!warning]
+> 此 beta 版破解补丁未经广泛测试。如果出现任何问题，请 [提交 Issue](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/new) 并附上相关细节。同时，按以下方法暂时回退至普通破解模式：
+> 
+> 重新运行该补丁并选择“还原”（Restore，第二个问题按<kbd>R</kbd> 键），然后使用 [稳定版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)。如上所述，该警告弹窗除了针对多用户使用的情境下比较烦以外并不影响正常使用。
+
+---
+
+#### Windows Defender / 其他杀毒软件误报
+
+没办法，7Z 的自解压安装程序就是有这个原罪，没有大公司的数字签名很容易被误报为恶意程序（因为实际行为就很符合这个的标准）。
+
+* 请直接放行即可。
+* 如果仍然心存怀疑，可以移步别处下载官方版，然后单独下载使用 [破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)（见上方说明）。
+* 如果对破解补丁的安全性也有怀疑，可以自己安装任意版本的 [Ruby 运行环境](https://rubyinstaller.org/)，自行运行破解补丁脚本，其代码开源于此处：[Patch.rb](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/tags/hidden/COS_for_Win/Patch.rb)
 
 #### 破解过程中出现红色（Failed）的解决方法
 <details>
@@ -143,17 +157,32 @@ $prc | remove-wmiobject
 其中第一行查找相关进程，第二行会显示相应的进程信息，第三行结束该进程。在该过程中你可能需要管理员权限。
 </details>
 
----
+#### ChemOffice 22.2 破解
+<details>
+
+**如果你在其他地方下载并安装了 22.2 版ChemOffice**，则原先的补丁失效，具体原因见 [Issue #20](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/20#issuecomment-1532687318)。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)即可。
+</details>
+
+#### Windows 下 ChemScript Python 接口用户
+<details>
+
+**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行 [最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe) 即可。
+</details>
 
 #### Windows 下的替代破解法
-* 虽然上述破解方法几乎完美，但若多个Windows ChemDraw用户在同一局域网内，可能出现弹窗提示（详见 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)）。这是由那个序列号本身的限制所致。此时可尝试另一种不完全破解方法（与网传破解补丁原理相同）。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见之前推送），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
 
-  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
+<details><summary>另一个阻止“多用户运行”警告弹窗的破解方法</summary>
+
+* 此方法与网传破解补丁原理相同。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见之前推送），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
+
+  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行 [此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
   * 该补丁对 ChemOffice 17~22 通用。
   * 若仍有弹窗提示（暂未发现），请尝试卸载之前的完全破解补丁（下载上一节中的补丁，按<kbd>R</kbd>进入`Restore`模式）。
 
+</details>
+
 > [!caution]
-> 本方法似乎已对 ChemDraw 23.0 失效。虽然 Chem3D 23.0 仍然能打开，但对于 ChemDraw 则会一直弹出如下弹窗，无法正常打开软件。因此，请勿使用这个补丁，并请 [提交 Issue](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/new) 并附上相关细节。
+> 本方法似乎已对 ChemDraw 23.0 失效。虽然 Chem3D 23.0 仍然能打开，但对于 ChemDraw 则会一直弹出如下弹窗，无法正常打开软件。因此对于 23.0 及以上版本，请勿使用这个补丁。
 
 <details><summary>点此展开查看 23.0 版本出错的截图</summary>
 
