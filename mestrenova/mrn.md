@@ -42,8 +42,8 @@
 * Ubuntu下（新增）：
 
   * 请首先配置`ruby`环境。使用`sudo apt-get install ruby-full`安装最新版ruby，或者对于non-sudoer用户可选择自行编译
-  * 终端中运行`ruby </path/to/>MRN_Crack_Ubuntu`，按y确认
-* 本补丁运行时已经包含了写入许可文件的步骤，因此运行结束后即可正常打开和运行MestReNova 12.0~14.2。
+  * 终端中运行`sudo ruby </path/to/>MRN_Crack_Ubuntu`，按y确认
+* 本补丁运行时已经包含了写入许可文件的步骤，因此运行结束后即可正常打开和运行MestReNova 12.0~15.0
 
 ## 运行效果图
 *<p align="center"><img src="/mestrenova/1.jpg" height="30%" width="30%">  <img src="/mestrenova/0.jpg" height="39%" width="39%"><br>左：Windows；右：Mac</p>*
