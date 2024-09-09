@@ -27,4 +27,4 @@
 * Turbomole 7.1 \[Win/Linux\]
   * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
 
-* [Mathematica 11-13 注册机](/mma.md)
+* **[Mathematica 10-14 注册机](/mma.md)**（更新）
